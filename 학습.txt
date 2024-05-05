@@ -1,0 +1,5 @@
+환경변수 끄고
+set KMP_DUPLICATE_LIB_OK=TRUE
+
+학습진행
+python train.py --img 416 --batch 16 --data C:/MeatDetection/dataset/meat.yaml --cfg C:/MeatDetection/yolov5/models/yolov5m.yaml --weights yolov5m.pt --name meat_yolov5s_results
